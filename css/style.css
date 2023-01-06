@@ -60,3 +60,29 @@ a{
 }
 
 /* =============================== banner part css end   ======================================== */
+
+/* =============================== failure part start  ========================================= */
+#failure-part .failure-details{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+#failure-part .failure-details .img-background {
+    width: 523px;
+    height: 530px;
+    background: #005FAC;
+    border-radius: 50%;
+    margin-top: 194px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 26px;
+}
+
+#failure-part .failure-details .person-img{
+    height: 800px;
+    background-image: url(../images/person.png);
+    background-repeat: no-repeat;
+    
+}
+/* =============================== failure part end    ========================================= */
