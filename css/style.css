@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 /* =============================== banner part css start ======================================== */
-#banner-part{
+#banner-part {
     height: 1008px;
     background-image: url('../images/banner3.png');
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@ a{
     padding-top: 289px;
 }
 
-#banner-part .banner-details h1{
+#banner-part .banner-details h1 {
     text-align: right;
     font-family: 'Work Sans', sans-serif;
     font-weight: 700px;
@@ -31,7 +31,7 @@ a{
     margin-bottom: 24px;
 }
 
-#banner-part .banner-details p{
+#banner-part .banner-details p {
     text-align: right;
     font-size: 16px;
     font-weight: 400;
@@ -39,11 +39,11 @@ a{
     color: #ffff;
 }
 
-#banner-part .banner-details .btn{
+#banner-part .banner-details .btn {
     width: 200px;
     margin-left: 1200px;
     margin-top: 32px;
-    
+
 }
 
 #banner-part .banner-details .btn a {
@@ -56,22 +56,22 @@ a{
     font-weight: 600;
     font-size: 20px;
     color: #005FAC;
-    
+
 }
 
 /* =============================== banner part css end   ======================================== */
 
 /* =============================== failure part start  ========================================= */
-#failure-part .failure-details{
+#failure-part .failure-details {
     max-width: 1400px;
     margin: 0 auto;
 }
 
-#failure-part .failure-details .photo{
+#failure-part .failure-details .photo {
     width: 50%;
 }
 
-#failure-part .failure-details{
+#failure-part .failure-details {
     display: flex;
     justify-content: space-between;
 }
@@ -88,26 +88,26 @@ a{
     margin-left: 26px;
 }
 
-#failure-part .failure-details .person-img{
+#failure-part .failure-details .person-img {
     height: 800px;
     background-image: url(../images/person.png);
     background-repeat: no-repeat;
-    
-    
+
+
 }
 
-#failure-part .failure-details .text{
+#failure-part .failure-details .text {
     margin-top: 200px;
 }
 
-#failure-part .failure-details .text h1{
+#failure-part .failure-details .text h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     font-weight: 700;
     color: #151414;
 }
 
-#failure-part .failure-details .text p{
+#failure-part .failure-details .text p {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -117,7 +117,7 @@ a{
     margin-bottom: 16px;
 }
 
-#failure-part .failure-details .failure-check h6{
+#failure-part .failure-details .failure-check h6 {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -125,20 +125,21 @@ a{
     margin: 6px 0;
 }
 
-#failure-part .failure-details .failure-check i{
+#failure-part .failure-details .failure-check i {
     color: #16D887;
 }
+
 /* =============================== failure part end    ========================================= */
 
 
 /* ============================== plan part start ================================================ */
-#plan-part{
+#plan-part {
     max-width: 1400px;
     margin: 0 auto;
     padding: 20px 0;
 }
 
-#plan-part h1{
+#plan-part h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -147,18 +148,18 @@ a{
     margin-bottom: 50px;
 }
 
-#plan-part .plan-details{
+#plan-part .plan-details {
     display: flex;
     gap: 2%;
     margin-bottom: 130px;
 }
 
-#plan-part .plan-details .plan-item{
+#plan-part .plan-details .plan-item {
     width: 25%;
     text-align: center;
 }
 
-#plan-part .plan-details .plan-item h3{
+#plan-part .plan-details .plan-item h3 {
     font-family: 'Work Sans', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -166,10 +167,63 @@ a{
     margin-bottom: 16px;
 }
 
-#plan-part .plan-details .plan-item p{
+#plan-part .plan-details .plan-item p {
     font-family: 'Work Sans', sans-serif;
     font-size: 25px;
     font-weight: 500;
     color: #737272;
 }
+
 /* ============================== plan part end   ================================================ */
+
+
+/* ============================== positive part start =========================================== */
+#positive-part {
+    max-width: 1400px;
+    height: 300px;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    padding-bottom: 130px;
+
+}
+
+#positive-part .linear-img {
+    max-width: 1400px;
+    height: 370px;
+    background-image: url(../images/gradient1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+#positive-part .text h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 117px;
+    padding-top: 94px;
+    position: absolute;
+}
+
+#positive-part .text .btn {
+    position: absolute;
+    margin-left: 117px;
+    margin-top: 215px;
+}
+
+#positive-part .text .btn a {
+    display: inline-block;
+    padding: 20px 40px;
+    background: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    border-radius: 5px;
+    ;
+}
+
+/* ============================== positive part end   =========================================== */
