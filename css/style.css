@@ -129,3 +129,47 @@ a{
     color: #16D887;
 }
 /* =============================== failure part end    ========================================= */
+
+
+/* ============================== plan part start ================================================ */
+#plan-part{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#plan-part h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#plan-part .plan-details{
+    display: flex;
+    gap: 2%;
+    margin-bottom: 130px;
+}
+
+#plan-part .plan-details .plan-item{
+    width: 25%;
+    text-align: center;
+}
+
+#plan-part .plan-details .plan-item h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+#plan-part .plan-details .plan-item p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+/* ============================== plan part end   ================================================ */
