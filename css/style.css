@@ -176,6 +176,104 @@ a {
 
 /* ============================== plan part end   ================================================ */
 
+/* ============================== team part start ================================================ */
+#team-work{
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 50px 0;
+    background-color: #005facc2;
+    border-radius: 5px;
+    
+}
+
+#team-work .team-title h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#team-work .team-work-details{
+    display: flex;
+    /* gap: 2%; */
+    justify-content: space-around;
+}
+
+
+#team-work .team-work-details .team-item{
+    width: 23%;
+    height: 500px;
+    background: #ffff;
+    
+
+}
+
+#team-work .team-work-details .team-item .img {
+    width: 100%;
+    height: 219px;
+    background-image: url(../images/team01.jpg) ;
+    background-repeat: no-repeat;
+    background-color: #0988f09b;
+    background-blend-mode: color;
+    background-size: 102%;
+}
+
+#team-work .team-work-details .team-item  .bg1 {
+    width: 100%;
+    height: 221px;
+    background-image: url(../images/team02.jpeg);
+    background-repeat: no-repeat;
+    background-color: #0988f09b;
+    background-blend-mode: color;
+    background-size: 105%;
+}
+
+#team-work .team-work-details .team-item  .bg2 {
+    width: 100%;
+    height: 219px;
+    background-image: url(../images/team03.png);
+    background-repeat: no-repeat;
+    background-color: #0988f09b;
+    background-blend-mode: color;
+    background-size: 129%;
+}
+
+
+#team-work .team-work-details .team-item  .bg3 {
+    width: 100%;
+    height: 219px;
+    background-image: url(../images/team04.jpg) ;
+    background-repeat: no-repeat;
+    background-color: #0988f09b;
+    background-blend-mode: color;
+    background-size: 102%;
+}
+
+
+#team-work .team-work-details .team-item h3 {
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    color: #151414;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#team-work .team-work-details .team-item p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #968f8f;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+/* ============================== team part end   ================================================ */
+
 
 /* ============================== positive part start =========================================== */
 #positive-part {
