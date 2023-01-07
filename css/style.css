@@ -392,8 +392,9 @@ a {
     background:#151414;
     border-radius: 5px;
     border: 1px solid #e0d4d4;
-    margin: 20px 0;
+    margin: 20px 0px;
     color: #fff;
+    padding-left: 20px;
 }
 
 #footer-part .footer-details .footer-right input::placeholder{
