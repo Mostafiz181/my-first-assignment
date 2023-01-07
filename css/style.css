@@ -252,7 +252,7 @@ a {
 
 
 #team-work .team-work-details .team-item h3 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
     color: #151414;
@@ -268,6 +268,7 @@ a {
     color: #968f8f;
     line-height: 24px;
     text-align: center;
+    padding: 0 20px;
 
 }
 
