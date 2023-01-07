@@ -393,6 +393,7 @@ a {
     border-radius: 5px;
     border: 1px solid #e0d4d4;
     margin: 20px 0;
+    color: #fff;
 }
 
 #footer-part .footer-details .footer-right input::placeholder{
